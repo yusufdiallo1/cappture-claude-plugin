@@ -4,7 +4,7 @@ Cappture is a camera and screen-capture app for the Mac. This plugin lets Claude
 
 ## What it runs and what it sends
 
-- It runs one file, `bin/cappture-mcp`, a short shell script that starts the Cappture app you already have installed (`/Applications/Cappture.app`) with `--mcp-stdio`.
+- It runs one file, `server/cappture-mcp`, a short shell script that starts the Cappture app you already have installed (`/Applications/Cappture.app`) with `--mcp-stdio`.
 - That bridge talks only to Cappture on your Mac, at `127.0.0.1`. Nothing is downloaded, and nothing is sent to any server by this plugin.
 - The first time Claude asks, Cappture shows **Allow** / **Don't Allow**. Only after you allow it does Claude get a key, kept on your Mac.
 - What Claude may read — screenshots, recordings, text, transcripts, camera photos — is chosen in Cappture › Settings › AI, and every request is listed there.

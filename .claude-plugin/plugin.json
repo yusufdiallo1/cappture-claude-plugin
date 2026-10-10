@@ -16,5 +16,10 @@
     "capture",
     "search"
   ],
-  "icon": ".claude-plugin/icon.png"
+  "icon": ".claude-plugin/icon.png",
+  "repository": "https://github.com/yusufdiallo1/cappture-claude-plugin",
+  "documentationUrl": "https://www.getcappture.com/mcp",
+  "supportUrl": "https://www.getcappture.com/help",
+  "privacyPolicyUrl": "https://www.getcappture.com/legal/privacy",
+  "termsOfServiceUrl": "https://www.getcappture.com/legal/terms"
 }
