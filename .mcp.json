@@ -3,6 +3,10 @@
     "cappture": {
       "command": "${CLAUDE_PLUGIN_ROOT}/server/cappture-mcp",
       "args": []
+    },
+    "cappture-web": {
+      "type": "http",
+      "url": "https://clouddashboard.getcappture.com/mcp"
     }
   }
 }

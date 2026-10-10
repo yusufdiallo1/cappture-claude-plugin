@@ -9,6 +9,10 @@ Cappture is a camera and screen-capture app for the Mac. This plugin lets Claude
 - The first time Claude asks, Cappture shows **Allow** / **Don't Allow**. Only after you allow it does Claude get a key, kept on your Mac.
 - What Claude may read — screenshots, recordings, text, transcripts, camera photos — is chosen in Cappture › Settings › AI, and every request is listed there.
 
+## On claude.ai, Claude Desktop and the Claude mobile apps
+
+The plugin also connects to `https://clouddashboard.getcappture.com/mcp`, Cappture's remote connector. You sign in with your Cappture account and allow Claude once; each request is then carried to a Mac of yours that has **Answer Claude on the web** turned on (Cappture › Settings › AI), answered there, and only that answer comes back. Nothing is kept after the answer is delivered.
+
 ## Requirements
 
 - A Mac with [Cappture](https://www.getcappture.com) installed.
