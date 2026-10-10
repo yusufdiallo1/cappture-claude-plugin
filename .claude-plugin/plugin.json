@@ -1,0 +1,10 @@
+{
+  "name": "cappture",
+  "displayName": "Cappture",
+  "description": "Search the screenshots, screen recordings and photos you take with Cappture on your Mac, and read their text, links and transcripts — on your Mac, only when you allow it.",
+  "version": "1.0.0",
+  "author": { "name": "Cappture", "url": "https://www.getcappture.com" },
+  "homepage": "https://www.getcappture.com/mcp",
+  "license": "MIT",
+  "keywords": ["screenshots", "screen recording", "mac", "capture", "search"]
+}

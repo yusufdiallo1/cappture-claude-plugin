@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cappture": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/cappture-mcp",
+      "args": []
+    }
+  }
+}

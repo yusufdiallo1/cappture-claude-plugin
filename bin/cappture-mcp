@@ -1,0 +1,12 @@
+#!/bin/sh
+# Starts the Cappture app's own MCP bridge (Cappture --mcp-stdio), which
+# talks to Cappture on this Mac at 127.0.0.1. Nothing is downloaded or sent
+# anywhere else. The first time Claude asks, Cappture shows Allow / Don't
+# Allow; what AI apps may read is set in Cappture > Settings > AI.
+APP="/Applications/Cappture.app/Contents/MacOS/Cappture"
+[ -x "$APP" ] || APP="$HOME/Applications/Cappture.app/Contents/MacOS/Cappture"
+if [ ! -x "$APP" ]; then
+  echo "Cappture isn't installed. Get it at https://www.getcappture.com" >&2
+  exit 1
+fi
+CAPPTURE_MCP_CLIENT="Claude" exec "$APP" --mcp-stdio
